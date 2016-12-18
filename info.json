@@ -1,0 +1,11 @@
+{
+  "name": "cmdbuffer",
+  "version": "0.0.1",
+  "factorio_version": "0.14",
+  "title": "RCON Large Command Buffer",
+  "author": "justarandomgeek",
+  "homepage": "",
+  "contact": "justarandomgeek@gmail.com",
+  "description": "A buffer to assemble and execute commands that are too large to send via RCON directly.",
+  "dependencies": ["base >= 0.14.0"]
+}
