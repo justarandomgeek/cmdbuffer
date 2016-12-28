@@ -10,13 +10,13 @@ remote.add_interface("cmdbuffer",
 
     return true
 	end,
-  exec = function(buffname)
+  clear = function(buffname)
     -- clear the selected buffer
     global[buffname] = nil
     return true
   end,
   exec = function(buffname)
-		-- execute and clear the selected buffer
+	  -- execute and clear the selected buffer
     local f = loadstring(global[buffname])
     global[buffname] = nil
     return f()
